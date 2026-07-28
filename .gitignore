@@ -1,0 +1,24 @@
+# Data caches (raw pulls are regenerated from the API; only the small sample ships)
+data/raw/*
+data/processed/*
+!data/sample/
+!data/universe.csv
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# Env / secrets
+.env
+*.env.local
+
+# OS
+.DS_Store
+
+# Jupyter
+.virtual_documents/
