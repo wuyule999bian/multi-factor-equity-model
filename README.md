@@ -4,8 +4,6 @@
 
 A cross-sectional, Fama-French-style factor investing model built on 192 US large/mid-cap equities. It constructs **value, momentum, size, and quality** factors, decile-sorts and long-short backtests each one independently, estimates factor risk premia with a two-pass **Fama-MacBeth (1973)** regression benchmarked against the **Kenneth French Data Library**, and combines the factors into a composite z-score portfolio decomposed back into its factor exposures.
 
-> **TODO (repo owner):** replace `wuyule999bian` in the badge URL above (and in the notebook's setup cell) once this is pushed to GitHub, so "Open in Colab" resolves to the real repo.
-
 ## Why this exists
 
 Cross-sectional factor investing — sorting a universe of stocks each period on characteristics like valuation, momentum, size, and profitability, then going long the attractive end and short the unattractive end — is the empirical backbone of both academic asset pricing (Fama-French, Carhart) and a large share of systematic equity investing in practice (AQR, Dimensional Fund Advisors, and most quantitative equity desks build on some version of this framework). This project reimplements the core pipeline end-to-end — data acquisition, factor construction, portfolio formation, and risk premium estimation — as a portfolio piece demonstrating that workflow on real market data, not canned/pre-cleaned datasets.
