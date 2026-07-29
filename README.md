@@ -1,10 +1,10 @@
 # Multi-Factor Equity Model
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USERNAME/multi-factor-equity-model/blob/main/notebooks/multi_factor_equity_model.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wuyule999bian/multi-factor-equity-model/blob/main/notebooks/multi_factor_equity_model.ipynb)
 
 A cross-sectional, Fama-French-style factor investing model built on 192 US large/mid-cap equities. It constructs **value, momentum, size, and quality** factors, decile-sorts and long-short backtests each one independently, estimates factor risk premia with a two-pass **Fama-MacBeth (1973)** regression benchmarked against the **Kenneth French Data Library**, and combines the factors into a composite z-score portfolio decomposed back into its factor exposures.
 
-> **TODO (repo owner):** replace `YOUR-GITHUB-USERNAME` in the badge URL above (and in the notebook's setup cell) once this is pushed to GitHub, so "Open in Colab" resolves to the real repo.
+> **TODO (repo owner):** replace `wuyule999bian` in the badge URL above (and in the notebook's setup cell) once this is pushed to GitHub, so "Open in Colab" resolves to the real repo.
 
 ## Why this exists
 
@@ -58,7 +58,7 @@ Click the "Open in Colab" badge above. The first cell clones this repo and insta
 
 ### Locally
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/multi-factor-equity-model.git
+git clone https://github.com/wuyule999bian/multi-factor-equity-model.git
 cd multi-factor-equity-model
 pip install -r requirements.txt
 export FMP_API_KEY=your_key_here   # https://site.financialmodelingprep.com — free tier works
